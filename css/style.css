@@ -10,9 +10,16 @@ ul, ol{
     list-style: none;
     padding: 0 !important;
 }
+.roww{
+    /* width: 0%; */
+    
+}
 /* style */
 .search-section{
     flex-grow: 1;
+}
+.flex-row{
+    display: flex;
 }
 .navbar{
     min-height: 70px;
@@ -30,15 +37,13 @@ ul, ol{
 }
 .side-bar {
     width: 150px;
-    max-width: ;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 70px);
     padding: 35px 25px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     color: white;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 .side-bar-section .fa-house{
     padding-right: 15px;
@@ -52,15 +57,37 @@ ul, ol{
 .side-bar-section .fa-gear{
     padding-right: 21px;
 }
+.main-section{
+    flex-grow: 1;
+}
+.main-header{
+    background-color: #1B72E8;
+    color: white;
+    padding: 25px 15px 1px 15px;
+}
+.bg-header-badge{
+    background-color: #165BBA !important;
+}
+.plus-icon-header{
+    display: none !important;
+}
+.pianoblaze-badge{
+    font-size: 12px !important;
+}
+.main-content{
+    padding: 15px;
+}
 
 
 
 
 
-
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .display-none{
-        display: none;
+        display: none !important;
+    }
+    .plus-icon-header{
+        display: inline !important;
     }
     .side-bar{
         width: 70px;
