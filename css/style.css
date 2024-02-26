@@ -14,9 +14,8 @@ ul, ol{
 .search-section{
     flex-grow: 1;
 }
-.search-bar{
-    display: flex;
-    flex-grow: 1;
+.navbar{
+    min-height: 70px;
 }
 .navbar-collapse{
     flex-grow: 0 !important;
@@ -24,7 +23,7 @@ ul, ol{
 .fa-bell:before {
     color: #FF8F00;
 }
-.side-bar-section .title{
+.side-bar-section .side-bar-list{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -51,15 +50,19 @@ ul, ol{
     padding-right: 13px;
 }
 .side-bar-section .fa-gear{
-    padding-right: 17px;
+    padding-right: 21px;
 }
 
 
 
 
 
-@media screen (max-width: 992px) {
-    .diplay-none{
+
+@media (max-width: 992px) {
+    .display-none{
         display: none;
+    }
+    .side-bar{
+        width: 70px;
     }
 }
