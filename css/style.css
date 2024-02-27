@@ -74,9 +74,7 @@ ul, ol{
 .pianoblaze-badge{
     font-size: 12px !important;
 }
-.main-content{
-    padding: 15px;
-}
+
 .list-group-item{
     border-top: 0 !important;
     border-right: 0 !important;
@@ -111,9 +109,4 @@ ul, ol{
     .side-bar{
         width: 70px;
     }
-}
-
-.paddingx-4{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
 }
