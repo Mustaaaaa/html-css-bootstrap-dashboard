@@ -88,7 +88,7 @@ th{
 .modal-header{
     border: 0 !important;
 }
-.modal-content .modal-body .dropdown button.btn.dropdown-toggle.w-100{
+.offcanvas .offcanvas-body button{
     border: 1px solid #DEE2E6;
     display: flex;
     justify-content: space-between;
