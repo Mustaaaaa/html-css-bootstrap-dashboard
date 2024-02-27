@@ -77,19 +77,43 @@ ul, ol{
 .main-content{
     padding: 15px;
 }
+.list-group-item{
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+.list-group-item{
+    display: flex;
+    justify-self: flex-end;
+}
+.prossime-classi-section button{
+    width: 30px;
+    aspect-ratio: 1/1;
+    padding: 0 !important;
+}
+.prossime-classi-section img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
 
-
-
+}
+.prossime-classi-section li{
+    font-size: 13px;
+}
+.col-list-item{
+    width: 100px;
+    text-align: center;
+}
 
 
 @media (max-width: 991px) {
-    .display-none{
-        display: none !important;
-    }
-    .plus-icon-header{
-        display: inline !important;
-    }
+    
     .side-bar{
         width: 70px;
     }
+}
+
+.paddingx-4{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
 }

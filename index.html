@@ -57,29 +57,35 @@
     </header>
 
     <main>
-        <div class="flex-row">
+        <div class="d-flex">
             <section class="side-bar-section">
                 <div class="side-bar">
                     <ul class="side-bar-list">
-                        <li><i class="fa-solid fa-house"></i> <span class="display-none">Home</span></li>
-                        <li><i class="fa-solid fa-chart-simple"></i> <span class="display-none">Stats</span></li>
-                        <li><i class="fa-solid fa-signal"></i> <span class="display-none">Signals</span></li>
+                        <li><i class="fa-solid fa-house"></i> <span class="d-none d-lg-inline-block">Home</span></li>
+                        <li><i class="fa-solid fa-chart-simple"></i> <span class="d-none d-lg-inline-block">Stats</span>
+                        </li>
+                        <li><i class="fa-solid fa-signal"></i> <span class="d-none d-lg-inline-block">Signals</span>
+                        </li>
                     </ul>
-                    <div><i class="fa-solid fa-gear"></i><span class="display-none">Admin</span></div>
+                    <div><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block">Admin</span></div>
                 </div>
             </section>
             <section class="main-section">
                 <div class="main-header">
                     <ul class="flex-row">
                         <li class="col-6">
-                            <h3>Boolean <span class="badge rounded-pill bg-header-badge pianoblaze-badge">Piano blaze</span></h3>
+                            <h3>Boolean <span class="badge rounded-pill bg-header-badge pianoblaze-badge">Piano
+                                    blaze</span></h3>
                             <p>
                                 <span class="badge rounded-pill bg-header-badge">3 app</span>
                                 &#8811;
-                                <span class="badge rounded-pill bg-header-badge display-none">Boolean mobile app</span>
-                                <span class="badge rounded-pill bg-header-badge display-none">Boolean web app</span>
-                                <span class="badge rounded-pill bg-header-badge display-none">Boolean blog app</span>
-                                <span class="badge rounded-pill bg-header-badge plus-icon-header">+</span>
+                                <span class="badge rounded-pill bg-header-badge d-none d-lg-inline-block">Boolean mobile
+                                    app</span>
+                                <span class="badge rounded-pill bg-header-badge d-none d-lg-inline-block">Boolean web
+                                    app</span>
+                                <span class="badge rounded-pill bg-header-badge d-none d-lg-inline-block">Boolean blog
+                                    app</span>
+                                <span class="badge rounded-pill bg-header-badge d-lg-none">+</span>
 
                             </p>
                         </li>
@@ -90,16 +96,159 @@
                         <li class="col">
                             <p>
                                 Nuovo Studente
-                                <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">+</button>
+                                <button type="button" class="btn active" data-bs-toggle="button"
+                                    aria-pressed="true">+</button>
                             </p>
                         </li>
                     </ul>
                 </div>
-                <div class="main-content">
-                    
+                <div class="main-content flex-row">
+                    <div class="col-8">
+                        <div class="card prossime-classi-section">
+                            <div class="card-header">
+                                <h3>Prossime classi</h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group list-group-horizontal ">
+                                    <li class="list-group-item flex-grow-1">Nome</li>
+                                    <li class="list-group-item text-nowrap col-list-item">Data inizio</li>
+                                    <li class="list-group-item col-list-item">ROI</li>
+                                    <li class="list-group-item col-list-item">Stato</li>
+                                    <li class="list-group-item col-list-item">Azioni</li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 75
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">15 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-success">Done</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 76
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">16 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item ">
+                                        <span class="badge text-bg-success ">Done</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 77
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">17 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-warning ">Process</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 78
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">18 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-success ">Done</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 79
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">19 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-danger ">Failed</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 80
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">20 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-success ">Done</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 81
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">21 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-danger ">failed</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="list-group-item flex-grow-1">
+                                        <img src="./img/class-avatar.jpg" alt=""> Classe 82
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">22 feb 2021</li>
+                                    <li class="list-group-item col-list-item">20%</li>
+                                    <li class="list-group-item col-list-item">
+                                        <span class="badge text-bg-success ">Done</span>
+                                    </li>
+                                    <li class="list-group-item text-nowrap col-list-item">
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-pen"></i></button>
+                                        <button type="button" class="btn active" data-bs-toggle="button"
+                                            aria-pressed="true"><i class="fa-solid fa-trash"></i></button>
+                                    </li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
             </section>
-            
         </div>
     </main>
 
