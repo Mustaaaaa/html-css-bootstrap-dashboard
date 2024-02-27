@@ -19,6 +19,7 @@ th{
 }
 .navbar{
     min-height: 70px;
+
 }
 .navbar-collapse{
     flex-grow: 0 !important;
@@ -38,8 +39,7 @@ th{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     color: white;
-    display: flex;
-    flex-direction: column;
+
 }
 .side-bar-section .fa-house{
     padding-right: 15px;
@@ -55,7 +55,8 @@ th{
 }
 .main-section{
     flex-grow: 1;
-
+    height: calc(100vh - 70px);
+    overflow: auto;
 }
 .main-header{
     background-color: #1B72E8;
@@ -104,11 +105,5 @@ th{
 @media (max-width: 767px) {
     .display-none-small{
         display: none;
-    }
-    .nuovo-studente-list{
-        /* order: first; */
-    }
-    .w-50{
-        width: 100% !important;
     }
 }
