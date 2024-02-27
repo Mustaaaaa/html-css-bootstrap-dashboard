@@ -10,16 +10,12 @@ ul, ol{
     list-style: none;
     padding: 0 !important;
 }
-.roww{
-    /* width: 0%; */
-    
+th{
+    font-weight: normal;
 }
 /* style */
 .search-section{
     flex-grow: 1;
-}
-.flex-row{
-    display: flex;
 }
 .navbar{
     min-height: 70px;
@@ -59,6 +55,7 @@ ul, ol{
 }
 .main-section{
     flex-grow: 1;
+
 }
 .main-header{
     background-color: #1B72E8;
@@ -74,16 +71,6 @@ ul, ol{
 .pianoblaze-badge{
     font-size: 12px !important;
 }
-
-.list-group-item{
-    border-top: 0 !important;
-    border-right: 0 !important;
-    border-left: 0 !important;
-}
-.list-group-item{
-    display: flex;
-    justify-self: flex-end;
-}
 .prossime-classi-section button{
     width: 30px;
     aspect-ratio: 1/1;
@@ -93,20 +80,35 @@ ul, ol{
     width: 30px;
     aspect-ratio: 1/1;
     border-radius: 50px;
-
 }
-.prossime-classi-section li{
-    font-size: 13px;
+.modal-fullscreen {
+    width: 50% !important;
 }
-.col-list-item{
-    width: 100px;
-    text-align: center;
+.modal-header{
+    border: 0 !important;
 }
-
-
+.modal-content .modal-body .dropdown button.btn.dropdown-toggle.w-100{
+    border: 1px solid #DEE2E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 @media (max-width: 991px) {
-    
     .side-bar{
         width: 70px;
+    }
+    .modal-fullscreen{
+        width: 100% !important;
+    }
+}
+@media (max-width: 767px) {
+    .display-none-small{
+        display: none;
+    }
+    .nuovo-studente-list{
+        /* order: first; */
+    }
+    .w-50{
+        width: 100% !important;
     }
 }
