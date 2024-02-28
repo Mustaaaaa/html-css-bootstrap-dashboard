@@ -125,7 +125,11 @@ th{
     .width-offcanvas-50-100{
         width: 100% !important;
     }
-    
+    .side-bar-section .side-bar button{
+        width: 30px;
+        height: 40px;
+        padding: 5px;
+    }
 }
 @media (max-width: 767px) {
     .display-none-small{
